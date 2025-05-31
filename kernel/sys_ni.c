@@ -387,7 +387,7 @@ COND_SYSCALL(setresgid16);
 COND_SYSCALL(setresuid16);
 COND_SYSCALL(setreuid16);
 COND_SYSCALL(setuid16);
-COND_SYSCALL(sleep_proc);
+COND_SYSCALL(faisca_sleep);
 
 /* restartable sequence */
 COND_SYSCALL(rseq);

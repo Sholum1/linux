@@ -851,8 +851,8 @@ __SYSCALL(__NR_listxattrat, sys_listxattrat)
 __SYSCALL(__NR_removexattrat, sys_removexattrat)
 #define __NR_open_tree_attr 467
 __SYSCALL(__NR_open_tree_attr, sys_open_tree_attr)
-#define __NR_sleep_proc 468
-__SYSCALL(__NR_sleep_proc, sys_sleep_proc)
+#define __NR_faisca_sleep 468
+__SYSCALL(__NR_faisca_sleep, sys_faisca_sleep)
 
 #undef __NR_syscalls
 #define __NR_syscalls 469
