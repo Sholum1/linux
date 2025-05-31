@@ -1,6 +1,6 @@
-#include<linux/syscalls.h>
+#include <linux/syscalls.h>
 
-SYSCALL_DEFINE1(my_sleep, unsigned int, seconds)
+SYSCALL_DEFINE1(sleep_proc, unsigned int, seconds)
 {
     ktime_t sleep_time;
     unsigned long remaining_jiffies;

@@ -57,6 +57,8 @@ obj-y += dma/
 obj-y += entry/
 obj-$(CONFIG_MODULES) += module/
 
+obj-y += sleep_proc.o
+
 obj-$(CONFIG_KCMP) += kcmp.o
 obj-$(CONFIG_FREEZER) += freezer.o
 obj-$(CONFIG_PROFILING) += profile.o
